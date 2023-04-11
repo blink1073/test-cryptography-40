@@ -24,15 +24,12 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = ["cryptography<35"]
-dynamic = ["version"]
+version = "0.1"
 
 [project.urls]
 Documentation = "https://github.com/unknown/foo#readme"
 Issues = "https://github.com/unknown/foo/issues"
 Source = "https://github.com/unknown/foo"
-
-[tool.hatch.version]
-path = "foo/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
