@@ -23,7 +23,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = ["cryptography>2", "cryptography<35;platform_python_implementation=='PyPy' and implementation_version<'7.3.10'"]
+dependencies = ["cryptography>2", "cryptography<40;platform_python_implementation=='PyPy' and implementation_version<'7.3.10'"]
 version = "0.1"
 
 [project.urls]
